@@ -1,0 +1,32 @@
+{
+  "name": "winston-console-graylog2-logger",
+  "version": "1.0.0",
+  "description": "A small wrapper around winston console and graylog2 transports.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iliyan-trifonov/winston-console-graylog2-logger.git"
+  },
+  "keywords": [
+    "winston",
+    "console",
+    "graylog2",
+    "gelf",
+    "log"
+  ],
+  "author": "Iliyan Trifonov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iliyan-trifonov/winston-console-graylog2-logger/issues"
+  },
+  "homepage": "https://github.com/iliyan-trifonov/winston-console-graylog2-logger",
+  "dependencies": {
+    "moment": "^2.10.2",
+    "winston": "^1.0.0",
+    "winston-graylog2": "^0.2.2"
+  }
+}

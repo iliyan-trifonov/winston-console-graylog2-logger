@@ -21,7 +21,8 @@ A small wrapper around the winston's console and graylog2 transports.
         graylog2: {
             enable: true,
             host: "127.0.0.1",
-            port: "12201"
+            port: "12201",
+            facility: "My NodeJS App"
         }
     });
     

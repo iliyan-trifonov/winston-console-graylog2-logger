@@ -31,8 +31,7 @@ function Logger (cnf) {
                         name: 'Chat',
                         handleExceptions: true,
                         graylog: {
-                            //TODO: put the facility in config
-                            facility: 'NodeJS Chat App',
+                            facility: config.graylog2.facility,
                             servers: [{
                                 host: config.graylog2.host,
                                 port: config.graylog2.port

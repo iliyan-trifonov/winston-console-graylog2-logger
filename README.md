@@ -1,5 +1,7 @@
 # winston-console-graylog2-logger
 
+[![Dependency Status](https://www.versioneye.com/user/projects/553a42e51d2989cb78000124/badge.svg?style=flat)](https://www.versioneye.com/user/projects/553a42e51d2989cb78000124)
+
 A small wrapper around the winston's console and graylog2 transports.
 
 ## Install
